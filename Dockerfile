@@ -9,4 +9,4 @@ FROM alpine:latest AS runner
 WORKDIR /app
 COPY --from=builder /app/example-golang .
 EXPOSE 8080
-ENTRYPOINT ["./example-golang"]
+ENTRYPOINT ["./"]
